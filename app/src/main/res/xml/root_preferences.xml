@@ -1,0 +1,138 @@
+<!--
+  ~ Copyright 2018 The app Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+
+        app:title="@string/phone_temp_sensor">
+
+        <ListPreference
+            android:defaultValue="F°"
+            android:entries="@array/temperature_units"
+            android:entryValues="@array/temperature_units_values"
+            android:key="airtempunit"
+            android:title="@string/temperature_measurement"
+            app:allowDividerAbove="false"
+            app:allowDividerBelow="true"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="switch_preference_air"
+            android:title="@string/notification_alerts" />
+        <EditTextPreference
+            android:dependency="switch_preference_air"
+            android:digits="0123456789"
+            android:inputType="numberDecimal"
+            android:key="edit_text_air_temp"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/notify_air"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/battery_sensor">
+
+        <ListPreference
+            android:defaultValue="F°"
+            android:entries="@array/temperature_units"
+            android:entryValues="@array/temperature_units_values"
+            android:key="batterytempunit"
+            android:title="@string/temperature_measurement"
+            app:allowDividerAbove="false"
+            app:allowDividerBelow="true"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="switch_preference_battery"
+            android:title="@string/notification_alerts" />
+        <EditTextPreference
+            android:dependency="switch_preference_battery"
+            android:digits="0123456789"
+            android:inputType="numberDecimal"
+            android:key="edit_text_battery_temp"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/notify_battery"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/accelerometer">
+
+        <ListPreference
+            android:defaultValue="MPH"
+            android:entries="@array/speed_units"
+            android:entryValues="@array/speed_units_values"
+            android:key="speedunit"
+            android:title="@string/speed_measurement"
+            app:allowDividerAbove="false"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="switch_preference_speed"
+            android:title="@string/notification_alerts" />
+        <EditTextPreference
+            android:dependency="switch_preference_speed"
+            android:digits="0123456789"
+            android:inputType="numberDecimal"
+            android:key="edit_text_speed"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/notify_speed"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+<PreferenceCategory app:title="@string/pressure_sensor">
+
+<SwitchPreference
+    android:defaultValue="false"
+    android:key="switch_preference_pressure"
+    android:title="@string/notification_alerts" />
+<EditTextPreference
+    android:dependency="switch_preference_pressure"
+    android:digits="0123456789"
+    android:inputType="numberDecimal"
+    android:key="edit_text_pressure"
+    android:selectAllOnFocus="true"
+    android:singleLine="true"
+    android:title="@string/notify_pressure"
+    app:useSimpleSummaryProvider="true" />
+
+</PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/humidity">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="switch_preference_humidity"
+            android:title="@string/notification_alerts" />
+        <EditTextPreference
+            android:dependency="switch_preference_humidity"
+            android:digits="0123456789"
+            android:inputType="numberDecimal"
+            android:key="edit_text_humidity"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/notify_humidity"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

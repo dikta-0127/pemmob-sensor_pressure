@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_main"
+    android:fillViewport="true"
+    tools:context="com.christianfoulcard.android.androidsensorengine.sensors.SensorLightActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/lux_sensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/anton_regular"
+        android:text="@string/lux_sensor"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/info_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:onClick="showLightDialogPopup"
+        app:layout_constraintStart_toEndOf="@+id/lux_sensor"
+        app:layout_constraintTop_toTopOf="@+id/lux_sensor"
+        app:srcCompat="@drawable/ic_question" />
+
+    <ImageView
+        android:id="@+id/lux_sensor_logo"
+        style="@style/MaterialAnimations"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:contentDescription="@string/sound_logo"
+        android:transitionName="@string/light_anim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lux_sensor"
+        app:srcCompat="@drawable/ic_lighticon_2" />
+
+        <TextView
+            android:id="@+id/luminosity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/anton_regular"
+            android:text="@string/luminosity"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+            app:layout_constraintEnd_toEndOf="@+id/lux_sensor_logo"
+            app:layout_constraintStart_toStartOf="@+id/lux_sensor_logo"
+            app:layout_constraintTop_toBottomOf="@+id/lux_sensor" />
+
+        <TextView
+            android:id="@+id/current_lux"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/anton_regular"
+            android:text="@string/not_available"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lux_sensor_logo"
+            app:layout_constraintEnd_toEndOf="@+id/lux_sensor_logo"
+            app:layout_constraintStart_toStartOf="@+id/lux_sensor_logo"
+            app:layout_constraintTop_toBottomOf="@+id/luminosity" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:adSize="SMART_BANNER"
+            app:adUnitId="ca-app-pub-9554686964642039/4406352283"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/current_lux"
+            app:layout_constraintVertical_bias="0.708" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

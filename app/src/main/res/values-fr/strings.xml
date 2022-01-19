@@ -1,0 +1,127 @@
+<resources>
+
+
+
+    <string name="app_name">Android Sensor Engine</string>
+
+    <!--Navigation Menu String Information-->
+    <string name="preferences">Préférences</string>
+    <string name="about">À propos de</string>
+    <string name="credits">Crédits</string>
+    <string name="premium">Premium</string>
+
+    <!--Sensor Select String Information-->
+
+    <string name="sensor_select">Sélection du capteur</string>
+    <string name="sound_button">Bouton Son</string>
+    <string name="temp_button">Bouton Temp</string>
+    <string name="light_button">Bouton lumineux</string>
+    <string name="ram_button">Bouton Ram</string>
+    <string name="battery_button">Bouton de la batterie</string>
+    <string name="speed_button">Bouton de vitesse</string>
+    <string name="humidity_button">Bouton d\'humidité</string>
+    <string name="pressure_button">Bouton de pression</string>
+    <string name="walk_button">Bouton de marche</string>
+    <string name="ham_icon_black">Bouton de jambon noir</string>
+    <string name="ham_icon_white">Bouton de jambon blanc</string>
+    <string name="unsupported_sensor">Votre appareil ne prend pas en charge ce capteur</string>
+
+    <!--Individual Sensor Activity String Information-->
+
+    <string name="sound_sensor">Capteur de son</string>
+    <string name="sensitivity">Sensibilité</string>
+    <string name="decibels">Décibels</string>
+    <string name="db">0 dB</string>
+    <string name="sound">Son</string>
+    <string name="sound_logo">Logo sonore</string>
+    <string name="sound_permission_denied">Veuillez autoriser le microphone à utiliser ce capteur</string>
+
+    <string name="lux_sensor">Capteur de lumière</string>
+    <string name="luminosity">Luminosity</string>
+    <string name="lux">Lux</string>
+
+    <string name="phone_temp_sensor">Température de l\'air</string>
+    <string name="temperature">Degrés</string>
+    <string name="C">C</string>
+    <string name="temperature_measurement">Unité de mesure</string>
+    <string name="temperature_measurement2">Unité de mesure</string>
+    <string name="Celsius">Celsius</string>
+    <string name="Fahrenheit">Fahrenheit</string>
+    <string name="Kelvin">Kelvin</string>
+    <string name="not_available">N/A</string>
+
+    <string name="ram_sensor">Capteur de mémoire dynamique</string>
+    <string name="ram">Disponible</string>
+    <string name="MB">MB</string>
+
+    <string name="battery_sensor">Chaleur de la batterie</string>
+    <string name="battery">Température</string>
+    <string name="Percent">%</string>
+
+    <string name="accelerometer_sensor">Accéléromètre</string>
+    <string name="accelerometer">Vitesse</string>
+    <string name="mph">mph</string>
+    <string name="speed_measurement">Unité de mesure de vitesse</string>
+    <string name="location_permission_denied">Veuillez autoriser la localisation pour utiliser ce capteur</string>
+
+    <string name="humidity_sensor">Vapeur d\'eau</string>
+    <string name="humidity">Humidité relative</string>
+
+    <string name="pressure_sensor">Pression atmosphérique</string>
+    <string name="level">Niveau</string>
+
+    <string name="walk_sensor">Compteur de pas</string>
+    <string name="steps">Étapes franchies</string>
+
+    <string name="sound_anim"></string>
+    <string name="temp_anim"></string>
+    <string name="light_anim"></string>
+    <string name="ram_anim"></string>
+    <string name="battery_anim"></string>
+    <string name="speed_anim"></string>
+    <string name="humidity_anim"></string>
+    <string name="pressure_anim"></string>
+    <string name="walk_anim"></string>
+
+    <string name="speed_pref"></string>
+
+    <!--Popup Info-->
+    <string name="sound_desc_1">Ce capteur mesure les informations sonores spatiales autour de vous. Votre appareil utilise le microphone pour que cela fonctionne. Les informations sonores sont ensuite converties en décibels (dB).</string>
+    <string name="sound_desc_2">Un décibel est une unité de mesure logarithmique utilisée pour mesurer l\'intensité sonore du son. Que vous soyez proche ou éloigné d\'une source sonore, vous pouvez l\'utiliser pour vous faire une idée de l\'intensité du son. Notez que les microphones Android sont limités à un maximum de 90 dB!</string>
+    <string name="temp_desc_1">Le capteur de température de l\'air utilise le matériel de votre téléphone pour trouver la température ambiante dans laquelle vous vous trouvez actuellement. Cela fonctionnera n\'importe où même sans être connecté à une source Internet!</string>
+    <string name="temp_desc_2">Exemples de cas d\'utilisation: déterminer si votre maison se refroidit correctement, les lectures d\'espace industriel / enceinte et trouver la température extérieure hors ligne. Veuillez noter que ces lectures peuvent être légèrement décalées car votre smartphone peut avoir de la chaleur stockée près du capteur du matériel! Les étuis pour smartphone peuvent également prendre en compte des lectures de sortie plus élevées!</string>
+    <string name="light_desc_1">Ce capteur ne nécessite aucun étalonnage ou modification pour interpréter les données lumineuses. Il mesurera le lux (lumière) à n\'importe quelle distance et vous rendra son intensité.</string>
+    <string name="light_desc_2">Les valeurs de lux varient énormément en fonction des informations sur la lumière ambiante absorbées par votre smartphone. Votre salon peut mesurer entre 1 et 150 avec quelques sources de lumière allumées. Aller dans un bureau ou une salle d\'exposition bien éclairé peut avoir une lecture de 500 lux! Sortez et cela peut atteindre 25 000! Ce capteur peut être utile pour planifier des pièces et des espaces afin de répondre à certaines normes d\'éclairage.</string>
+    <string name="battery_desc_1">Ce capteur est similaire au capteur de température de l\'air. Cela permet de mesurer facilement la chaleur de votre appareil à un moment donné.</string>
+    <string name="battery_desc_2">Si votre appareil est trop chaud, vous pouvez envisager de réduire la luminosité de votre écran, de vous déconnecter du wifi / des données ou de fermer un jeu en cours d\'exécution. Vous pouvez également utiliser un ventilateur ou de l\'air frais pour abaisser la température de la batterie. La température ambiante a une grande influence sur la température de la batterie de votre appareil!</string>
+    <string name="humidity_desc_1">Ce capteur calcule l\'humidité relative autour de vous sans utiliser de wifi ou de données. Ces informations vous sont données sous forme de données brutes.</string>
+    <string name="humidity_desc_2">L\'humidité est la quantité de vapeur d\'eau résidant dans l\'air. Une valeur de 100% signifie que l\'air est complètement saturé d\'eau et ne peut plus en contenir. Les nuages se forment à ce pourcentage! Bien que la température soit également plus élevée en conséquence. Des valeurs faibles peuvent nous faire sentir plus frais que la température réelle et cèdent la place à de l\'air sec qui à son tour aide à évaporer la transpiration!</string>
+    <string name="pressure_desc_1">La pression barométrique (également connue sous le nom de pression atmosphérique) est la force que l\'atmosphère exerce à un point donné. Vous pouvez considérer cela comme le poids de l\'air.</string>
+    <string name="pressure_desc_2">Ce capteur est utile pour plusieurs raisons. Une pression plus basse est associée à une quantité plus élevée de maux de tête, de douleurs articulaires et d\'une pression artérielle plus basse! Cela peut également être utilisé pour aider à prévoir généralement le temps: une augmentation de la pression peut signifier une amélioration du temps tandis qu\'une baisse de la pression peut signifier un temps entrant. Cette lecture variera avec l\'altitude et les niveaux d\'humidité.</string>
+    <string name="ram_desc_1">La RAM (Random Access Memory) est constamment consommée et utilisée pour chaque appareil mobile. Ce capteur mesure la quantité de mémoire actuellement disponible sur votre système.</string>
+    <string name="ram_desc_2">Ce capteur est destiné aux personnes curieuses de savoir combien de RAM est utilisée par le système. Une partie de la RAM est toujours utilisée car le système d\'exploitation Android alimente votre téléphone en fournissant des fonctionnalités lorsque vous l\'utilisez. Plus votre appareil dispose de RAM, plus les applications peuvent s\'exécuter en arrière-plan!</string>
+    <string name="speed_desc_1">Le capteur accéléromètre est un outil pratique pour déterminer votre vitesse de sortie. Cela fonctionne en rassemblant des données GPS en fonction de votre emplacement et en convertissant votre vitesse en un nombre tangible.</string>
+    <string name="speed_desc_2">Certains scénarios d\'utilisation incluent le suivi de la précision de la vitesse de la voiture et la recherche de votre vitesse de course maximale. Notez que parce que cela n\'est aussi précis que votre connexion au wifi / données, le capteur peut ou non être aussi précis qu\'il pourrait l\'être!</string>
+    <string name="step_desc_1">Le compteur de pas est un outil simple pour calculer le nombre de pas que vous avez faits à un moment donné.</string>
+    <string name="notification_alerts">Alertes de notification</string>
+    <string name="channel_name_humidity">Notifications d\'humidité</string>
+    <string name="channel_name_pressure">Notifications de pression</string>
+    <string name="channel_name_battery">Notifications de chaleur de la batterie</string>
+    <string name="channel_name_speed">Notifications de l\'accéléromètre</string>
+    <string name="channel_name_air_temp">Notifications de température de l\'air</string>
+    <string name="title_activity_settings">Réglages</string>
+    <string name="notify_air">M\'avertir lorsque la température de l\'air est</string>
+    <string name="notify_battery">M\'avertir lorsque la température de la batterie est</string>
+    <string name="notify_speed">M\'avertir lorsque l\'accéléromètre atteint</string>
+    <string name="notify_pressure">M\'avertir lorsque la pression est</string>
+    <string name="notify_humidity">M\'avertir lorsque l\'humidité est</string>
+    <string name="notify_humidity_message">L\'humidité relative a atteint</string>
+    <string name="notify_pressure_message">La pression atmosphérique a atteint</string>
+    <string name="notify_speed_message">Votre vitesse a atteint</string>
+    <string name="notify_battery_message">La batterie de votre appareil a atteint</string>
+    <string name="notify_air_message">La température de l\'air ambiant a atteint</string>
+    <string name="pin_shortcut_title">Accès rapide au capteur</string>
+    <string name="pin_shortut_message">Vous pouvez épingler n\'importe quel capteur sur votre écran d\'accueil en appuyant longuement sur l\'icône</string>
+
+
+</resources>

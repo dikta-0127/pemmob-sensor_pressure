@@ -1,0 +1,151 @@
+<resources>
+
+    <!--https://developer.android.com/guide/topics/resources/localization#creating-alternatives-->
+
+    <string name="app_name">Android Sensor Engine</string>
+
+    <!--Navigation Menu String Information-->
+    <string name="preferences">Preferences</string>
+    <string name="about">About</string>
+    <string name="credits">Credits</string>
+    <string name="premium">Premium</string>
+
+    <!--Sensor Select String Information-->
+    <string name="sensor_select">Sensor Selection</string>
+    <string name="sound_button">Sound Button</string>
+    <string name="temp_button">Temp Button</string>
+    <string name="light_button">Light Button</string>
+    <string name="ram_button">Ram Button</string>
+    <string name="battery_button">Battery Button</string>
+    <string name="speed_button">Speed Button</string>
+    <string name="humidity_button">Humidity Button</string>
+    <string name="pressure_button">Pressure Button</string>
+    <string name="walk_button">Walk Button</string>
+    <string name="ham_icon_black">Black Ham Button</string>
+    <string name="ham_icon_white">White Ham Button</string>
+    <string name="unsupported_sensor">Your device does not support this sensor</string>
+
+    <!--Individual Sensor Activity String Information-->
+    <string name="sound_sensor">Sound Sensor</string>
+    <string name="sensitivity">Sensitivity</string>
+    <string name="decibels">Decibels</string>
+    <string name="db">0 dB</string>
+    <string name="sound">Sound</string>
+    <string name="sound_logo">Sound Logo</string>
+    <string name="sound_permission_denied">Please allow microphone permission to use this sensor</string>
+
+    <string name="lux_sensor">Light Sensor</string>
+    <string name="luminosity">Luminosity</string>
+    <string name="lux">Lux</string>
+
+    <string name="phone_temp_sensor">Air Temperature</string>
+    <string name="temperature">Degrees</string>
+    <string name="C">C°</string>
+    <string name="temperature_measurement">Unit of Measurement</string>
+    <string name="temperature_measurement2">Unit of Measurement2</string>
+    <string name="Celsius">Celsius</string>
+    <string name="Fahrenheit">Fahrenheit</string>
+    <string name="Kelvin">Kelvin</string>
+    <string name="not_available">N/A</string>
+
+    <string name="ram_sensor">Ram Sensor</string>
+    <string name="ram">Available</string>
+    <string name="MB">MB</string>
+
+    <string name="battery_sensor">Battery Heat</string>
+    <string name="battery">Temperature</string>
+    <string name="Percent">%</string>
+
+    <string name="accelerometer_sensor">Accelerometer</string>
+    <string name="accelerometer">Speed</string>
+    <string name="mph">mph</string>
+    <string name="speed_measurement">Speed Unit of Measurement</string>
+    <string name="location_permission_denied">Please allow location permission to use this sensor</string>
+
+    <string name="humidity_sensor">Water Vapor</string>
+    <string name="humidity">Relative Humidity</string>
+
+    <string name="pressure_sensor">Atmospheric Pressure</string>
+    <string name="level">Level</string>
+
+    <string name="walk_sensor">Step Counter</string>
+    <string name="steps">Steps Taken</string>
+
+    <!--Popup Info-->
+    <!--Sound Sensor-->
+    <string name="sound_desc_1">This sensor measures spatial sound information around you. Your device uses the microphone to make this work. The sound information is then converted into decibels (dB).</string>
+    <string name="sound_desc_2">A decibel is a logarithmic unit of measurement used to measure the loudness of sound. Whether you\'re close up or far away from a sound source you can use this to get an idea of how intense the sound is. Note that Android microphones are limited to a maximum of 90 dB!</string>
+
+    <!--Temperature Sensor-->
+    <string name="temp_desc_1">The Air Temperature sensor uses your phone\'s hardware to find the ambient temperature you\'re currently in. This will work anywhere even without being connected to an internet source!</string>
+    <string name="temp_desc_2">Example use cases include determining if your home is cooling properly, industrial space/enclosure readings, and finding outside temperature while offline. Please note that these readings may be slightly off as your smartphone may have heat stored near the hardware\'s sensor! Smartphone cases may also factor higher output readings!</string>
+
+    <!--Light Sensor-->
+    <string name="light_desc_1">This sensor requires no calibration or modification to interpret light data. It will measure lux (light) from any distance and return to you its intensity.</string>
+    <string name="light_desc_2">The values of lux will differ wildly depending on the ambient light information your smartphone absorbs. Your living room may measure anywhere from 1–150 with a few light sources on. Going to a well lit office or show room may have a reading of 500 lux! Step outside and this may jump up to 25,000! This sensor can be useful for planning out rooms and spaces to meet certain lighting standards.</string>
+
+    <!--Ram Sensor-->
+    <string name="ram_desc_1">RAM (Random Access Memory) is constantly consumed and in use for every mobile device. This sensor measures the amount of memory currently available on your system. </string>
+    <string name="ram_desc_2">This sensor is geared toward those curious about how much RAM is being used by the system. A portion of RAM is always in use because of the Android OS powering your phone providing functionality as you use it. The more RAM your device has available the more apps can run in the background!</string>
+
+    <!--Battery Sensor-->
+    <string name="battery_desc_1">This sensor is similar to the Air Temperature sensor. This provides an easy way to gauge how hot your device is at any given time. </string>
+    <string name="battery_desc_2">If your device is too hot you may consider lowering your screen brightness, disconnecting from wifi/data, or close a game that is running. You may also use a fan or cool air to lower battery temperature. Environmental temperature has a great influence of your device\'s battery temperature! </string>
+
+    <!--Accelerometer Sensor-->
+    <string name="speed_desc_1">The Accelerometer sensor is a handy tool for determining your speed output. This works by gathering GPS data based upon your location and converting your speed into a tangible number.</string>
+    <string name="speed_desc_2">Some use scenarios include tracking car speed accuracy and finding your top running speed. Note that because this is only as accurate as your connection to wifi/data the sensor may or may not be as accurate as it could be!</string>
+
+    <!--Pressure Sensor-->
+    <string name="pressure_desc_1">Barometric pressure (also known as atmospheric pressure) is the force the atmosphere exerts at any given point. You can think of this as the weight of the air.</string>
+    <string name="pressure_desc_2">This sensor is helpful for a number of reasons. Lower pressure is associated with a higher amount of headaches, joint pain, and lower blood pressure! This can also be used to help generally predict weather: A rise in pressure can mean an improvement in weather while falling pressure could mean incoming weather. This reading will vary with altitude and moisture levels.</string>
+
+    <!--humidity Sensor-->
+    <string name="humidity_desc_1">This sensor calculates the relative humidity around you without the use of wifi or data. This information is given to you in the form of raw data.</string>
+    <string name="humidity_desc_2">Humidity is the amount of water vapor residing in the air. A value of 100% means the air is thoroughly saturated with water and cannot hold any more. Clouds form at this percentage! Though the temperature is also higher as a result. Low values can make us feel cooler than the actual temperature and gives way to dry air which in turn helps evaporate sweat!</string>
+
+    <!--Step Sensor-->
+    <string name="step_desc_1">The Step Counter is a simple tool to calculate the amount of steps you\'ve taken at any given time.</string>
+
+    <!-- Preferences Strings -->
+
+
+    <string name="sound_anim"></string>
+    <string name="temp_anim"></string>
+    <string name="light_anim"></string>
+    <string name="ram_anim"></string>
+    <string name="battery_anim"></string>
+    <string name="speed_anim"></string>
+    <string name="humidity_anim"></string>
+    <string name="pressure_anim"></string>
+    <string name="walk_anim"></string>
+
+    <string name="speed_pref"></string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="channel_name_air_temp">Air Temperature Notifications</string>
+    <string name="channel_name_speed">Accelerometer Notifications</string>
+    <string name="channel_name_battery">Battery Heat Notifications</string>
+    <string name="channel_name_pressure">Pressure Notifications</string>
+    <string name="channel_name_humidity">Humidity Notifications</string>
+    <string name="channel_description_air_temp"></string>
+    <string name="channel_description_speed"></string>
+    <string name="channel_description_battery"></string>
+    <string name="channel_description_pressure"></string>
+    <string name="channel_description_humidity"></string>
+    <string name="notification_alerts">Notification Alerts</string>
+    <string name="notify_air">Notify me when the Air Temperature is</string>
+    <string name="notify_battery">Notify me when the Battery Temperature is</string>
+    <string name="notify_speed">Notify me when the Accelerometer reaches</string>
+    <string name="notify_pressure">Notify me when the Pressure is</string>
+    <string name="notify_humidity">Notify me when the Humidity is</string>
+    <string name="notify_air_message">Ambient air temperature has reached</string>
+    <string name="notify_battery_message">Your device\'s battery has reached</string>
+    <string name="notify_speed_message">Your speed has reached</string>
+    <string name="notify_pressure_message">The atmospheric pressure has reached</string>
+    <string name="notify_humidity_message">The relative humidity has reached</string>
+    <string name="pin_shortut_message">You can pin any sensor to your home screen by long pressing the icon</string>
+    <string name="pin_shortcut_title">Quick Sensor Access</string>
+    <string name="title_activity_new_home_screen">NewHomeScreenActivity</string>
+
+
+</resources>

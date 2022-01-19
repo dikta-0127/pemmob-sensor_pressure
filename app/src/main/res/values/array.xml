@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Temperature String Arrays for Preferences -->
+    <string-array name="temperature_units">
+        <item>@string/Celsius</item>
+        <item>@string/Fahrenheit</item>
+        <item>@string/Kelvin</item>
+    </string-array>
+
+    <string-array name="temperature_units_values">
+        <item>C°</item>
+        <item>F°</item>
+        <item>K°</item>
+    </string-array>
+
+    <!-- Speed String Arrays for Preferences -->
+    <string-array name="speed_units">
+        <item>MPH</item>
+        <item>KM/H</item>
+        <item>M/S</item>
+        <item>FT/S</item>
+        <item>Knots</item>
+    </string-array>
+
+    <string-array name="speed_units_values">
+        <item>MPH</item>
+        <item>KM/H</item>
+        <item>M/S</item>
+        <item>FT/S</item>
+        <item>Knots</item>
+    </string-array>
+</resources>

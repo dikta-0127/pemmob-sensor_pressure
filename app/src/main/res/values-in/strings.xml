@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Sensor Engine</string>
+
+    <!--Navigation Menu String Information-->
+    <string name="preferences">Preferensi</string>
+    <string name="about">Tentang</string>
+    <string name="credits">Kredit</string>
+    <string name="premium">Premium</string>
+
+    <!--Sensor Select String Information-->
+    <string name="sensor_select">Pemilihan Sensor</string>
+    <string name="sound_button">Tombol Suara</string>
+    <string name="temp_button">Tombol Suhu </string>
+    <string name="light_button">ombol Cahaya</string>
+    <string name="ram_button">Tombol Ram</string>
+    <string name="battery_button">Tombol Baterai</string>
+    <string name="speed_button">Tombol Kecepatan</string>
+    <string name="humidity_button">Tombol Kelembaban</string>
+    <string name="pressure_button">Tombol Tekanan</string>
+    <string name="walk_button">Tombol berjalan</string>
+    <string name="ham_icon_black">Tombol Ham Hitam</string>
+    <string name="ham_icon_white">Tombol Ham Putih</string>
+    <string name="unsupported_sensor">Perangkat Anda tidak mendukung sensor ini</string>
+
+    <!--Individual Sensor Activity String Information-->
+    <string name="sound_sensor">Sensor Suara</string>
+    <string name="sensitivity">Sensitivitas</string>
+    <string name="decibels">Desibel</string>
+    <string name="db">0 dB</string>
+    <string name="sound">Suara</string>
+    <string name="sound_logo">Logo Suara</string>
+    <string name="sound_permission_denied">Izinkan izin mikrofon untuk menggunakan sensor ini</string>
+
+    <string name="lux_sensor">Sensor Cahaya</string>
+    <string name="luminosity">Kilau</string>
+    <string name="lux">Lux</string>
+
+    <string name="phone_temp_sensor">Temperatur Udara</string>
+    <string name="temperature">Derajat</string>
+    <string name="C">C</string>
+    <string name="temperature_measurement">Unit Pengukuran</string>
+    <string name="temperature_measurement2">Unit Pengukuran</string>
+    <string name="Celsius">Celsius</string>
+    <string name="Fahrenheit">Fahrenheit</string>
+    <string name="Kelvin">Kelvin</string>
+    <string name="not_available">N/A</string>
+
+    <string name="ram_sensor">Sensor Ram</string>
+    <string name="ram">Tersedia</string>
+    <string name="MB">MB</string>
+
+    <string name="battery_sensor">Panas Baterai</string>
+    <string name="battery">Suhu</string>
+    <string name="Percent">%</string>
+
+    <string name="accelerometer_sensor">Akselerometer</string>
+    <string name="accelerometer">Kecepatan</string>
+    <string name="mph">mph</string>
+    <string name="speed_measurement">Satuan Kecepatan Pengukuran</string>
+    <string name="location_permission_denied">Izinkan izin lokasi untuk menggunakan sensor ini</string>
+
+    <string name="humidity_sensor">Uap air</string>
+    <string name="humidity">Humidité relative</string>
+
+    <string name="pressure_sensor">Tekanan atmosfir</string>
+    <string name="level">Tingkat</string>
+
+    <string name="walk_sensor">Penghitung Langkah</string>
+    <string name="steps">Langkah Diambil</string>
+
+    <string name="sound_anim"></string>
+    <string name="temp_anim"></string>
+    <string name="light_anim"></string>
+    <string name="ram_anim"></string>
+    <string name="battery_anim"></string>
+    <string name="speed_anim"></string>
+    <string name="humidity_anim"></string>
+    <string name="pressure_anim"></string>
+    <string name="walk_anim"></string>
+
+    <string name="speed_pref"></string>
+
+    <!--Popup Info-->
+    <string name="sound_desc_1">Sensor ini mengukur informasi suara spasial di sekitar Anda. Perangkat Anda menggunakan mikrofon untuk membuat ini berfungsi. Informasi suara kemudian dikonversi menjadi desibel (dB).</string>
+    <string name="sound_desc_2">Desibel adalah satuan pengukuran logaritmik yang digunakan untuk mengukur kenyaringan suara. Apakah Anda dekat atau jauh dari sumber suara, Anda dapat menggunakan ini untuk mendapatkan gambaran seberapa kuat suara itu. Perhatikan bahwa mikrofon Android dibatasi hingga maksimal 90 dB!</string>
+    <string name="temp_desc_1">Sensor Suhu Udara menggunakan perangkat keras ponsel Anda untuk menemukan suhu sekitar tempat Anda berada saat ini. Sensor ini akan bekerja di mana saja bahkan tanpa terhubung ke sumber internet!</string>
+    <string name="temp_desc_2">Contoh kasus penggunaan mencakup menentukan apakah rumah Anda pendinginan dengan benar, pembacaan ruang / enklosur industri, dan menemukan suhu luar saat offline. Harap dicatat bahwa pembacaan ini mungkin sedikit tidak aktif karena ponsel cerdas Anda mungkin memiliki panas yang tersimpan di dekat sensor perangkat keras! Casing ponsel pintar juga dapat menjadi faktor pembacaan output yang lebih tinggi!</string>
+    <string name="light_desc_1">Sensor ini tidak memerlukan kalibrasi atau modifikasi untuk menafsirkan data cahaya. Ini akan mengukur lux (cahaya) dari jarak berapa pun dan kembali kepada Anda intensitasnya.</string>
+    <string name="light_desc_2">Nilai lux akan sangat berbeda tergantung pada informasi cahaya sekitar yang diserap oleh ponsel cerdas Anda. Ruang tamu Anda dapat mengukur mulai dari 1–150 dengan beberapa sumber cahaya menyala. Pergi ke kantor atau ruang pertunjukan yang terang mungkin memiliki bacaan 500 lux! Keluar dan ini bisa melonjak hingga 25.000! Sensor ini dapat berguna untuk merencanakan ruang dan ruang untuk memenuhi standar pencahayaan tertentu.</string>
+    <string name="battery_desc_1">Sensor ini mirip dengan sensor Suhu Udara. Ini memberikan cara mudah untuk mengukur seberapa panas perangkat Anda pada waktu tertentu.</string>
+    <string name="battery_desc_2">Jika perangkat Anda terlalu panas, Anda dapat mempertimbangkan menurunkan kecerahan layar, memutuskan koneksi dari wifi / data, atau menutup game yang sedang berjalan. Anda juga dapat menggunakan kipas atau udara dingin untuk menurunkan suhu baterai. Suhu lingkungan memiliki pengaruh besar terhadap suhu baterai perangkat Anda!</string>
+    <string name="humidity_desc_1">Sensor ini menghitung kelembaban relatif di sekitar Anda tanpa menggunakan wifi atau data. Informasi ini diberikan kepada Anda dalam bentuk data mentah.</string>
+    <string name="humidity_desc_2">Kelembaban adalah jumlah uap air yang berada di udara. Nilai 100% berarti udara jenuh dengan air dan tidak dapat menahan lagi. Awan terbentuk pada persentase ini! Padahal suhunya juga lebih tinggi. Nilai yang rendah dapat membuat kita merasa lebih dingin daripada suhu aktual dan memberi jalan bagi udara kering yang pada gilirannya membantu menguapkan keringat!</string>
+    <string name="pressure_desc_1">Tekanan barometrik (juga dikenal sebagai tekanan atmosfer) adalah gaya yang diberikan atmosfer pada titik tertentu. Anda dapat menganggap ini sebagai beban udara.</string>
+    <string name="pressure_desc_2">Sensor ini bermanfaat karena sejumlah alasan. Tekanan rendah dikaitkan dengan jumlah sakit kepala yang lebih tinggi, nyeri sendi, dan tekanan darah yang lebih rendah! Ini juga dapat digunakan untuk membantu memprediksi cuaca secara umum: Peningkatan tekanan dapat berarti peningkatan cuaca sementara tekanan jatuh dapat berarti cuaca yang masuk. Bacaan ini akan bervariasi dengan ketinggian dan tingkat kelembaban.</string>
+    <string name="ram_desc_1">RAM (Memori Akses Acak) secara konstan dikonsumsi dan digunakan untuk setiap perangkat seluler. Sensor ini mengukur jumlah memori yang saat ini tersedia di sistem Anda.</string>
+    <string name="ram_desc_2">Sensor ini diarahkan untuk mereka yang ingin tahu tentang berapa banyak RAM yang digunakan oleh sistem. Sebagian RAM selalu digunakan karena OS Android memberi daya pada ponsel Anda yang menyediakan fungsionalitas saat Anda menggunakannya. Semakin banyak RAM yang tersedia di perangkat Anda, semakin banyak aplikasi dapat berjalan di latar belakang!</string>
+    <string name="speed_desc_1">Sensor Accelerometer adalah alat yang berguna untuk menentukan output kecepatan Anda. Ini berfungsi dengan mengumpulkan data GPS berdasarkan lokasi Anda dan mengubah kecepatan Anda menjadi angka nyata.</string>
+    <string name="speed_desc_2">Beberapa skenario penggunaan termasuk melacak akurasi kecepatan mobil dan menemukan kecepatan lari terbaik Anda. Perhatikan bahwa karena ini hanya seakurat koneksi Anda ke wifi / data, sensor mungkin atau mungkin tidak seakurat mungkin!</string>
+    <string name="step_desc_1">Penghitung Langkah adalah alat sederhana untuk menghitung jumlah langkah yang telah Anda ambil pada waktu tertentu.</string>
+    <string name="notification_alerts">Lansiran Pemberitahuan</string>
+    <string name="channel_name_humidity">Pemberitahuan Kelembaban</string>
+    <string name="channel_name_pressure">Pemberitahuan Tekanan</string>
+    <string name="channel_name_battery">Pemberitahuan Panas Baterai</string>
+    <string name="channel_name_speed">Pemberitahuan Akselerometer</string>
+    <string name="channel_name_air_temp">Pemberitahuan Suhu Udara</string>
+    <string name="title_activity_settings">Pengaturan</string>
+    <string name="notify_air">Beritahu saya ketika Suhu Udara</string>
+    <string name="notify_battery">Beritahu saya ketika Suhu Baterai</string>
+    <string name="notify_speed">Beritahu saya ketika Accelerometer mencapai</string>
+    <string name="notify_pressure">Beritahu saya ketika ada tekanan</string>
+    <string name="notify_humidity">Beritahu saya saat Kelembaban terjadi</string>
+    <string name="notify_humidity_message">Kelembaban relatif telah mencapai</string>
+    <string name="notify_pressure_message">Tekanan atmosfer telah mencapai</string>
+    <string name="notify_speed_message">Kecepatan Anda telah mencapai</string>
+    <string name="notify_battery_message">Baterai perangkat Anda telah mencapai</string>
+    <string name="notify_air_message">Suhu udara sekitar telah mencapai</string>
+    <string name="pin_shortcut_title">Akses Sensor Cepat</string>
+    <string name="pin_shortut_message">Anda dapat menyematkan sensor apa pun ke layar beranda dengan menekan lama ikon</string>
+
+</resources>

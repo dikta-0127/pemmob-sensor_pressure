@@ -1,0 +1,124 @@
+<resources>
+
+
+    <string name="app_name">Android Sensor Engine</string>
+
+    <!--Navigation Menu String Information-->
+    <string name="preferences">Preferencias</string>
+    <string name="about">Acerca de </string>
+    <string name="credits">Créditos</string>
+    <string name="premium">Premium</string>
+
+    <!--Sensor Select String Information-->
+    <string name="sensor_select">Seleccionar sensor</string>
+    <string name="sound_button">Botón de sonido</string>
+    <string name="temp_button">Botón de temperatura</string>
+    <string name="light_button">Botón de luz</string>
+    <string name="ram_button">Botón Ram</string>
+    <string name="battery_button">Botón de la batería</string>
+    <string name="speed_button">Botón de velocidad</string>
+    <string name="humidity_button">Botón de humedad</string>
+    <string name="pressure_button">Botón de presión</string>
+    <string name="walk_button">Botón de caminar</string>
+    <string name="ham_icon_black">Botón de jamón negro</string>
+    <string name="ham_icon_white">Jamon Blanco</string>
+    <string name="unsupported_sensor">Su dispositivo no es compatible con este sensor</string>
+
+    <!--Individual Sensor Activity String Information-->
+    <string name="sound_sensor">Sensor de sonido</string>
+    <string name="sensitivity">Sensibilidad</string>
+    <string name="decibels">Decibelios</string>
+    <string name="db">0 dB</string>
+    <string name="sound">Sonar</string>
+    <string name="sound_logo">Logotipo de sonido</string>
+    <string name="sound_permission_denied">Por favor permita permiso del micrófono para usar este sensor</string>
+
+    <string name="lux_sensor">Sensor de luz</string>
+    <string name="luminosity">Luminosidad</string>
+    <string name="lux">Lux</string>
+
+    <string name="phone_temp_sensor">Temperatura del aire</string>
+    <string name="temperature">Grados</string>
+    <string name="C">C</string>
+    <string name="temperature_measurement">Unidad de medida</string>
+    <string name="temperature_measurement2">Unidad de medida</string>
+    <string name="Celsius">Celsius</string>
+    <string name="Fahrenheit">Fahrenheit</string>
+    <string name="Kelvin">Kelvin</string>
+    <string name="not_available">N/A</string>
+
+    <string name="ram_sensor">Ram Sensor</string>
+    <string name="ram">Disponible</string>
+    <string name="MB">MB</string>
+
+    <string name="battery_sensor">Calor de la batería</string>
+    <string name="battery">Temperatura</string>
+    <string name="Percent">%</string>
+
+    <string name="accelerometer_sensor">Acelerómetro</string>
+    <string name="accelerometer">Velocidad</string>
+    <string name="mph">mph</string>
+    <string name="speed_measurement">Unidad de medida de velocidad</string>
+    <string name="location_permission_denied">Permita permiso de ubicación para usar este sensor</string>
+
+    <string name="humidity_sensor">Vapor de agua</string>
+    <string name="humidity">Humedad relativa</string>
+
+    <string name="pressure_sensor">Presión atmosférica</string>
+    <string name="level">Nivel</string>
+
+    <string name="walk_sensor">Contador de pasos</string>
+    <string name="steps">Pasos tomados</string>
+
+    <string name="sound_anim"></string>
+    <string name="temp_anim"></string>
+    <string name="light_anim"></string>
+    <string name="ram_anim"></string>
+    <string name="battery_anim"></string>
+    <string name="speed_anim"></string>
+    <string name="humidity_anim"></string>
+    <string name="pressure_anim"></string>
+    <string name="walk_anim"></string>
+
+    <string name="speed_pref"></string>
+
+    <!--Popup Info-->
+    <string name="sound_desc_2">Un decibel es una unidad logarítmica de medida utilizada para medir el volumen del sonido. Ya sea que esté cerca o lejos de una fuente de sonido, puede usar esto para tener una idea de qué tan intenso es el sonido. ¡Tenga en cuenta que los micrófonos Android están limitados a un máximo de 90 dB!</string>
+    <string name="sound_desc_1">Este sensor mide la información espacial del sonido a su alrededor. Su dispositivo utiliza el micrófono para que esto funcione. La información del sonido se convierte a decibelios (dB).</string>
+    <string name="temp_desc_1">El sensor de temperatura del aire utiliza el hardware de su teléfono para encontrar la temperatura ambiente en la que se encuentra actualmente. ¡Esto funcionará en cualquier lugar, incluso sin estar conectado a una fuente de Internet!</string>
+    <string name="temp_desc_2">Los ejemplos de casos de uso incluyen determinar si su hogar se está enfriando adecuadamente, lecturas de espacio / recinto industrial y encontrar la temperatura exterior mientras está desconectado. ¡Tenga en cuenta que estas lecturas pueden estar ligeramente apagadas ya que su teléfono inteligente puede tener calor almacenado cerca del sensor del hardware! ¡Las fundas de los teléfonos inteligentes también pueden tener lecturas de salida más altas!</string>
+    <string name="light_desc_1">Este sensor no requiere calibración o modificación para interpretar los datos de luz. Medirá lux (luz) desde cualquier distancia y le devolverá su intensidad.</string>
+    <string name="light_desc_2">Los valores de lux diferirán enormemente dependiendo de la información de luz ambiental que absorba su teléfono inteligente. Su sala de estar puede medir entre 1 y 150 con algunas fuentes de luz encendidas. ¡Ir a una oficina o sala de espectáculos bien iluminada puede tener una lectura de 500 lux! ¡Salga y esto puede saltar hasta 25,000! Este sensor puede ser útil para planificar habitaciones y espacios para cumplir con ciertos estándares de iluminación.</string>
+    <string name="battery_desc_1">Este sensor es similar al sensor de temperatura del aire. Esto proporciona una manera fácil de medir qué tan caliente está su dispositivo en un momento dado.</string>
+    <string name="battery_desc_2">Si su dispositivo está demasiado caliente, puede considerar reducir el brillo de la pantalla, desconectarse de wifi / datos o cerrar un juego que se esté ejecutando. También puede usar un ventilador o aire frío para bajar la temperatura de la batería. ¡La temperatura ambiental tiene una gran influencia en la temperatura de la batería de su dispositivo!</string>
+    <string name="humidity_desc_1">Este sensor calcula la humedad relativa a su alrededor sin el uso de wifi o datos. Esta información se le proporciona en forma de datos sin procesar.</string>
+    <string name="humidity_desc_2">La humedad es la cantidad de vapor de agua que reside en el aire. Un valor del 100% significa que el aire está completamente saturado de agua y no puede aguantar más. ¡Las nubes se forman en este porcentaje! Aunque la temperatura también es más alta como resultado. ¡Los valores bajos pueden hacernos sentir más frescos que la temperatura real y dar paso al aire seco que a su vez ayuda a evaporar el sudor!</string>
+    <string name="pressure_desc_1">La presión barométrica (también conocida como presión atmosférica) es la fuerza que ejerce la atmósfera en cualquier punto dado. Puedes pensar en esto como el peso del aire.</string>
+    <string name="pressure_desc_2">Este sensor es útil por varias razones. ¡Una presión más baja se asocia con una mayor cantidad de dolores de cabeza, dolor en las articulaciones y presión arterial más baja! Esto también se puede usar para ayudar a predecir el clima en general: un aumento de la presión puede significar una mejora en el clima, mientras que la caída de presión podría significar el clima entrante. Esta lectura variará con los niveles de altitud y humedad.</string>
+    <string name="ram_desc_1">La RAM (memoria de acceso aleatorio) se consume constantemente y se usa en todos los dispositivos móviles. Este sensor mide la cantidad de memoria actualmente disponible en su sistema.</string>
+    <string name="ram_desc_2">Este sensor está dirigido a aquellos curiosos sobre cuánta RAM está utilizando el sistema. Una parte de la RAM siempre está en uso debido al sistema operativo Android que alimenta su teléfono y le brinda funcionalidad mientras lo usa. ¡Cuanta más RAM tenga disponible su dispositivo, más aplicaciones se pueden ejecutar en segundo plano!</string>
+    <string name="speed_desc_1">El sensor del acelerómetro es una herramienta útil para determinar su salida de velocidad. Esto funciona al recopilar datos GPS basados en su ubicación y convertir su velocidad en un número tangible.</string>
+    <string name="speed_desc_2">Algunos escenarios de uso incluyen el seguimiento de la precisión de la velocidad del automóvil y la búsqueda de su velocidad máxima de carrera. Tenga en cuenta que debido a que esto es tan preciso como su conexión a wifi / datos, ¡el sensor puede o no ser tan preciso como podría ser!</string>
+    <string name="step_desc_1">El Contador de pasos es una herramienta simple para calcular la cantidad de pasos que ha dado en un momento dado.</string>
+    <string name="notification_alerts">Alertas de notificaciones</string>
+    <string name="title_activity_settings">Configuraciones</string>
+    <string name="channel_name_air_temp">Notificaciones de temperatura del aire</string>
+    <string name="channel_name_speed">Notificaciones de acelerómetro</string>
+    <string name="channel_name_battery">Notificaciones de calor de batería</string>
+    <string name="channel_name_pressure">Notificaciones de presión</string>
+    <string name="channel_name_humidity">Notificaciones de humedad</string>
+    <string name="notify_air">Notificarme cuando la temperatura del aire sea</string>
+    <string name="notify_battery">Notificarme cuando la temperatura de la batería sea</string>
+    <string name="notify_speed">Notificarme cuando llegue el acelerómetro</string>
+    <string name="notify_pressure">Notificarme cuando la presión es</string>
+    <string name="notify_humidity">Notificarme cuando la humedad es</string>
+    <string name="notify_humidity_message">La humedad relativa ha alcanzado</string>
+    <string name="notify_pressure_message">La presión atmosférica ha alcanzado</string>
+    <string name="notify_speed_message">Tu velocidad ha alcanzado</string>
+    <string name="notify_battery_message">La batería de su dispositivo ha alcanzado</string>
+    <string name="notify_air_message">La temperatura ambiente ha alcanzado</string>
+    <string name="pin_shortcut_title">Acceso rápido al sensor</string>
+    <string name="pin_shortut_message">Puede anclar cualquier sensor a su pantalla de inicio presionando prolongadamente el ícono</string>
+
+
+</resources>

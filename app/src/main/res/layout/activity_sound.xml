@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_main"
+    android:fillViewport="true"
+    tools:context="com.christianfoulcard.android.androidsensorengine.sensors.SensorSoundActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+            <ImageView
+                android:id="@+id/sound_logo"
+                style="@style/MaterialAnimations"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/sound_logo"
+                android:transitionName="@string/sound_anim"
+                app:layout_constraintEnd_toEndOf="@+id/sound_sensor"
+                app:layout_constraintStart_toStartOf="@+id/sound_sensor"
+                app:layout_constraintTop_toBottomOf="@+id/sound_sensor"
+                app:srcCompat="@drawable/ic_sound_icon_2"
+                />
+
+
+
+
+    <ImageView
+        android:id="@+id/info_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:onClick="showSoundDialogPopup"
+        app:layout_constraintStart_toEndOf="@+id/sound_sensor"
+        app:layout_constraintTop_toTopOf="@+id/sound_sensor"
+        app:srcCompat="@drawable/ic_question" />
+
+    <TextView
+        android:id="@+id/sound_sensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:fontFamily="@font/anton_regular"
+        android:text="@string/sound_sensor"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/decibels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:fontFamily="@font/anton_regular"
+            android:text="@string/decibels"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/sound_logo" />
+
+    <SeekBar
+        android:id="@+id/decibel_seekbar"
+        style="@style/Widget.AppCompat.SeekBar"
+        android:layout_width="0dp"
+        android:layout_height="14dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/gradient_red_purple"
+        android:interpolator="@android:interpolator/anticipate"
+        android:max="90"
+        android:progressDrawable="@drawable/gradient_red_purple"
+        android:requiresFadingEdge="horizontal"
+        android:soundEffectsEnabled="true"
+        android:thumbOffset="32dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/sound_logo"
+        app:layout_constraintHorizontal_bias="0.43"
+        app:layout_constraintStart_toStartOf="@+id/sound_logo"
+        app:layout_constraintTop_toBottomOf="@+id/decibels" />
+
+        <TextView
+            android:id="@+id/current_decibel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:fontFamily="@font/anton_regular"
+            android:text="@string/not_available"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/sound_logo"
+            app:layout_constraintEnd_toEndOf="@+id/sound_logo"
+            app:layout_constraintStart_toStartOf="@+id/sound_logo"
+            app:layout_constraintTop_toBottomOf="@+id/decibel_seekbar" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
